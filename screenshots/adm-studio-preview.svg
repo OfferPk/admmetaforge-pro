@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090e" />
+      <stop offset="100%" stop-color="#0f141f" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#192235" />
+      <stop offset="100%" stop-color="#0f1524" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="indigoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="750" fill="url(#bgGrad)" />
+
+  <!-- Top Navigation Bar -->
+  <rect x="0" y="0" width="1200" height="64" fill="#0f141f" stroke="#26334d" stroke-width="1" />
+  <rect x="24" y="16" width="54" height="32" rx="6" fill="url(#cyanGrad)" />
+  <text x="31" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="900" fill="#fff">ADM</text>
+  <text x="90" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#f8fafc">ADMMetaForge Pro</text>
+  <rect x="300" y="20" width="160" height="24" rx="4" fill="#192235" stroke="#3b4d70" stroke-width="1" />
+  <text x="310" y="36" font-family="monospace" font-size="11" fill="#cbd5e1">ITU-R BS.2076-2 ADM</text>
+  
+  <rect x="980" y="16" width="180" height="32" rx="6" fill="#10b981" />
+  <text x="1008" y="37" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff">✓ 10/10 AUDIT PASS</text>
+
+  <!-- Main Content Grid -->
+  <!-- Left Panel: Audio Programme Config -->
+  <rect x="40" y="88" width="350" height="620" rx="10" fill="url(#cardGrad)" stroke="#26334d" stroke-width="1" filter="url(#shadow)" />
+  <text x="60" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#e2e8f0">Audio Programme &amp; Scene</text>
+  <line x1="60" y1="136" x2="370" y2="136" stroke="#26334d" stroke-width="1" />
+
+  <!-- Title -->
+  <text x="60" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">PROGRAMME TITLE</text>
+  <rect x="60" y="176" width="310" height="36" rx="6" fill="#080b12" stroke="#3b4d70" stroke-width="1" />
+  <text x="72" y="199" font-family="monospace" font-size="13" fill="#f1f5f9">Dolby_Atmos_Spatial_Soundtrack</text>
+
+  <!-- Bed Layout -->
+  <text x="60" y="234" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">SPEAKER BED CONFIGURATION</text>
+  <rect x="60" y="244" width="310" height="36" rx="6" fill="#080b12" stroke="#3b4d70" stroke-width="1" />
+  <text x="72" y="267" font-family="monospace" font-size="13" fill="#06b6d4">7.1.4 Immersive Bed (12 Ch DirectSpeakers)</text>
+
+  <!-- Dynamic Objects -->
+  <text x="60" y="302" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">DYNAMIC 3D AUDIO OBJECTS</text>
+  <rect x="60" y="312" width="310" height="36" rx="6" fill="#080b12" stroke="#3b4d70" stroke-width="1" />
+  <text x="72" y="335" font-family="monospace" font-size="13" fill="#f59e0b">1 Dynamic Object (Flyover Helicopter)</text>
+
+  <!-- 3D Coordinates -->
+  <text x="60" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">CARTESIAN COORDINATES (X, Y, Z)</text>
+  <rect x="60" y="380" width="95" height="36" rx="6" fill="#080b12" stroke="#3b4d70" stroke-width="1" />
+  <text x="72" y="403" font-family="monospace" font-size="12" fill="#cbd5e1">X: +0.45</text>
+
+  <rect x="165" y="380" width="95" height="36" rx="6" fill="#080b12" stroke="#3b4d70" stroke-width="1" />
+  <text x="177" y="403" font-family="monospace" font-size="12" fill="#cbd5e1">Y: +0.80</text>
+
+  <rect x="270" y="380" width="100" height="36" rx="6" fill="#080b12" stroke="#3b4d70" stroke-width="1" />
+  <text x="282" y="403" font-family="monospace" font-size="12" fill="#cbd5e1">Z: +0.85</text>
+
+  <!-- Duration & Loudness -->
+  <text x="60" y="438" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">DURATION &amp; TARGET LOUDNESS</text>
+  <rect x="60" y="448" width="150" height="36" rx="6" fill="#080b12" stroke="#3b4d70" stroke-width="1" />
+  <text x="72" y="471" font-family="monospace" font-size="12" fill="#cbd5e1">120.0 seconds</text>
+
+  <rect x="220" y="448" width="150" height="36" rx="6" fill="#080b12" stroke="#3b4d70" stroke-width="1" />
+  <text x="232" y="471" font-family="monospace" font-size="12" fill="#10b981">-24.0 LUFS</text>
+
+  <!-- Action Buttons -->
+  <rect x="60" y="510" width="310" height="42" rx="6" fill="url(#indigoGrad)" />
+  <text x="135" y="536" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#fff">Synthesize ADM XML</text>
+
+  <rect x="60" y="564" width="310" height="40" rx="6" fill="#334155" />
+  <text x="120" y="589" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#fff">Wrap in BWF &lt;axml&gt; Chunk</text>
+
+  <!-- Right Panel: 3D Soundstage & ADM Inspector -->
+  <rect x="410" y="88" width="750" height="620" rx="10" fill="url(#cardGrad)" stroke="#26334d" stroke-width="1" filter="url(#shadow)" />
+  
+  <!-- Tabs -->
+  <rect x="426" y="104" width="160" height="34" rx="6" fill="#06b6d4" />
+  <text x="445" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#000">3D Soundstage Monitor</text>
+
+  <rect x="596" y="104" width="140" height="34" rx="6" fill="#192235" stroke="#3b4d70" stroke-width="1" />
+  <text x="618" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">ITU-R ADM XML</text>
+
+  <rect x="746" y="104" width="140" height="34" rx="6" fill="#192235" stroke="#3b4d70" stroke-width="1" />
+  <text x="765" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">BWF &lt;axml&gt;</text>
+
+  <rect x="896" y="104" width="130" height="34" rx="6" fill="#192235" stroke="#3b4d70" stroke-width="1" />
+  <text x="918" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">10-Pt Audit</text>
+
+  <!-- 3D Soundstage Monitor Visualization Box -->
+  <rect x="430" y="155" width="710" height="320" rx="6" fill="#05070d" stroke="#26334d" stroke-width="1" />
+  
+  <!-- Soundstage Circle -->
+  <circle cx="785" cy="315" r="120" fill="#0a101f" stroke="#334155" stroke-width="2" stroke-dasharray="6,6" />
+  <circle cx="785" cy="315" r="16" fill="#06b6d4" />
+  <text x="785" y="320" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="900" fill="#000">SWEET SPOT</text>
+
+  <!-- Speaker Bed Nodes (7.1.4) -->
+  <circle cx="715" cy="225" r="7" fill="#10b981" /> <!-- Front Left -->
+  <circle cx="855" cy="225" r="7" fill="#10b981" /> <!-- Front Right -->
+  <circle cx="785" cy="205" r="7" fill="#10b981" /> <!-- Center -->
+  <circle cx="675" cy="315" r="7" fill="#10b981" /> <!-- Side Left -->
+  <circle cx="895" cy="315" r="7" fill="#10b981" /> <!-- Side Right -->
+  <circle cx="715" cy="405" r="7" fill="#10b981" /> <!-- Rear Left -->
+  <circle cx="855" cy="405" r="7" fill="#10b981" /> <!-- Rear Right -->
+
+  <!-- Dynamic 3D Object -->
+  <circle cx="835" cy="240" r="10" fill="#f59e0b" stroke="#ffffff" stroke-width="2" />
+  <text x="850" y="245" font-family="monospace" font-size="11" font-weight="700" fill="#f59e0b">Helicopter (X:0.45, Y:0.80, Z:0.85)</text>
+
+  <!-- Legend in Monitor Box -->
+  <text x="450" y="185" font-family="monospace" font-size="12" font-weight="700" fill="#06b6d4">ITU-R BS.2076-2 SPATIAL SOUNDSTAGE MONITOR</text>
+  <text x="450" y="215" font-family="sans-serif" font-size="11" fill="#10b981">● 7.1.4 Bed (DirectSpeakers: Front L/C/R, Sides, Rears, Heights)</text>
+  <text x="450" y="235" font-family="sans-serif" font-size="11" fill="#f59e0b">● Dynamic Point Object (Cartesian X:0.45, Y:0.80, Z:0.85)</text>
+  <text x="450" y="255" font-family="sans-serif" font-size="11" fill="#94a3b8">● Loudness: -24.0 LUFS Target (EBU R128 / ITU BS.1770)</text>
+
+  <!-- Live Audit Results Mini-Panel -->
+  <rect x="430" y="490" width="710" height="200" rx="6" fill="#080b12" stroke="#26334d" stroke-width="1" />
+  <rect x="430" y="490" width="710" height="28" rx="6" fill="#0f141f" />
+  <text x="446" y="509" font-family="monospace" font-size="11" font-weight="700" fill="#94a3b8">ITU-R BS.2076-2 &amp; EBU TECH 3364 NORMATIVE AUDIT (10/10 PASS)</text>
+
+  <text x="446" y="534" font-family="monospace" font-size="11" fill="#10b981">✓ [ADM-01] XML Declaration &amp; UTF-8: Compliant XML prolog present</text>
+  <text x="446" y="552" font-family="monospace" font-size="11" fill="#10b981">✓ [ADM-02] Root Tag: &lt;ituADM xmlns="urn:itu:bs:2076:2"&gt; schema declared</text>
+  <text x="446" y="570" font-family="monospace" font-size="11" fill="#10b981">✓ [ADM-03] audioProgramme: APR_1001 ID syntax and loudness metadata valid</text>
+  <text x="446" y="588" font-family="monospace" font-size="11" fill="#10b981">✓ [ADM-04] audioContent: Linked to ACO_1001 Main Mix component</text>
+  <text x="446" y="606" font-family="monospace" font-size="11" fill="#10b981">✓ [ADM-05] audioObject: 7.1.4 Bed and Dynamic Helicopter objects mapped</text>
+  <text x="446" y="624" font-family="monospace" font-size="11" fill="#10b981">✓ [ADM-06] audioPackFormat: DirectSpeakers (0001) &amp; Objects (0003) typeLabels</text>
+  <text x="446" y="642" font-family="monospace" font-size="11" fill="#10b981">✓ [ADM-07] 3D Coordinates: All X, Y, Z coordinates legally bound within [-1.0, +1.0]</text>
+  <text x="446" y="660" font-family="monospace" font-size="11" fill="#10b981">✓ [ADM-08] Stream/Track Mapping: audioStreamFormat and audioTrackFormat PCM pairs aligned</text>
+</svg>
